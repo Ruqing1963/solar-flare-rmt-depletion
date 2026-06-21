@@ -1,0 +1,187 @@
+{
+  "ar12192": {
+    "name": "AR 12192 (2014, tag)",
+    "n_flares": 20,
+    "n_waiting": 19,
+    "r": 0.479068,
+    "r_se": 0.061889,
+    "ci_lo": 0.313,
+    "ci_hi": 0.6211,
+    "cv": 0.834,
+    "beta": 0.2406,
+    "ks_poisson": 0.135997,
+    "ks_goe": 0.229435,
+    "ks_gue": 0.250173,
+    "classification": "GOE"
+  },
+  "ar12673": {
+    "name": "AR 12673 (2017, window)",
+    "n_flares": 41,
+    "n_waiting": 40,
+    "r": 0.419049,
+    "r_se": 0.045819,
+    "ci_lo": 0.3082,
+    "ci_hi": 0.5062,
+    "cv": 0.9354,
+    "beta": 0.075,
+    "ks_poisson": 0.061747,
+    "ks_goe": 0.231781,
+    "ks_gue": 0.299113,
+    "classification": "POISSON"
+  },
+  "pooled_single_ar": {
+    "label": "Pooled single-AR (12192+12673)",
+    "n_waiting": 59,
+    "r": 0.440034,
+    "r_se": 0.036543,
+    "cv": 0.904,
+    "beta": 0.1228,
+    "ks_poisson": 0.078658,
+    "ks_goe": 0.198714,
+    "ks_gue": 0.263943,
+    "best_fit": "Poisson",
+    "classification": "GOE"
+  },
+  "global_2014_mx": {
+    "label": "Global 2014 (all-disk M/X, solar max)",
+    "n_flares": 368,
+    "n_waiting": 367,
+    "mean_waiting_h": 23.497,
+    "r": 0.354387,
+    "r_se": 0.014038,
+    "cv": 2.3228,
+    "beta": 0.01,
+    "ks_poisson": 0.281443,
+    "ks_goe": 0.483371,
+    "ks_gue": 0.549249,
+    "best_fit": "Poisson",
+    "classification": "POISSON"
+  },
+  "global_2014_cmx": {
+    "label": "Global 2014 (all-disk C/M/X)",
+    "n_flares": 3202,
+    "n_waiting": 3201,
+    "mean_waiting_h": 2.7365,
+    "r": 0.405517,
+    "r_se": 0.004817,
+    "cv": 2.0061,
+    "beta": 0.01,
+    "ks_poisson": 0.090673,
+    "ks_goe": 0.29069,
+    "ks_gue": 0.358056,
+    "best_fit": "Poisson",
+    "classification": "POISSON"
+  },
+  "ar11429": {
+    "name": "AR 11429 (2012, tag)",
+    "n_flares": 11,
+    "n_waiting": 10,
+    "r": 0.400519,
+    "r_se": 0.077933,
+    "ci_lo": 0.1796,
+    "ci_hi": 0.6252,
+    "cv": 1.1194,
+    "beta": 0.01,
+    "ks_poisson": 0.146543,
+    "ks_goe": 0.335096,
+    "ks_gue": 0.384038,
+    "classification": "POISSON"
+  },
+  "ar11515": {
+    "name": "AR 11515 (2012, tag)",
+    "n_flares": 31,
+    "n_waiting": 30,
+    "r": 0.51611,
+    "r_se": 0.046192,
+    "ci_lo": 0.3669,
+    "ci_hi": 0.5863,
+    "cv": 0.8138,
+    "beta": 0.3059,
+    "ks_poisson": 0.138301,
+    "ks_goe": 0.211317,
+    "ks_gue": 0.267931,
+    "classification": "GOE"
+  },
+  "ar12297": {
+    "name": "AR 12297 (2015, tag)",
+    "n_flares": 14,
+    "n_waiting": 13,
+    "r": 0.433026,
+    "r_se": 0.055652,
+    "ci_lo": 0.3028,
+    "ci_hi": 0.639,
+    "cv": 0.745,
+    "beta": 0.3331,
+    "ks_poisson": 0.174195,
+    "ks_goe": 0.265554,
+    "ks_gue": 0.33165,
+    "classification": "POISSON"
+  },
+  "pooled_5ar": {
+    "name": "Pooled 5 single-ARs",
+    "n_waiting": 112,
+    "r": 0.453412,
+    "r_se": 0.025128,
+    "ci_lo": 0.3695,
+    "ci_hi": 0.4848,
+    "cv": 0.8855,
+    "beta": 0.1605,
+    "ks_poisson": 0.059119,
+    "ks_goe": 0.183482,
+    "ks_gue": 0.250109,
+    "classification": "GOE"
+  },
+  "robustness_inter_AR": {
+    "n_active_regions": 16,
+    "note": "No single-release-strength proxy correlates with <r>; per-AR estimates noise-dominated.",
+    "proxy_correlations": {
+      "flare_rate_per_day": {
+        "pearson_r": -0.3521,
+        "pearson_p": 0.1811,
+        "spearman_rho": -0.2912,
+        "spearman_p": 0.2739
+      },
+      "x_class_fraction": {
+        "pearson_r": 0.2516,
+        "pearson_p": 0.3472,
+        "spearman_rho": 0.0974,
+        "spearman_p": 0.7197
+      },
+      "log_median_peak_flux": {
+        "pearson_r": -0.2922,
+        "pearson_p": 0.2721,
+        "spearman_rho": -0.1588,
+        "spearman_p": 0.5569
+      },
+      "log_mean_flare_energy": {
+        "pearson_r": 0.042,
+        "pearson_p": 0.8774,
+        "spearman_rho": 0.0853,
+        "spearman_p": 0.7535
+      }
+    },
+    "per_ar_r_sigma_range": "0.10-0.17",
+    "poisson_goe_gap": 0.145
+  },
+  "cycle_phase": {
+    "single_AR_pooled_r": {
+      "2012": 0.4626,
+      "2014": 0.4145,
+      "2015": 0.415,
+      "2017": 0.419
+    },
+    "single_AR_phase_consistency": {
+      "chi2": 0.96,
+      "dof": 3,
+      "p": 0.81,
+      "note": "Single-AR Poisson behavior invariant across cycle phase"
+    },
+    "whole_disk_CV": {
+      "2012": 2.233,
+      "2014": 2.323,
+      "2015": 2.54,
+      "2017": 3.096
+    },
+    "whole_disk_note": "Clustering strengthens into decline: CV rises 2.23->3.10"
+  }
+}
