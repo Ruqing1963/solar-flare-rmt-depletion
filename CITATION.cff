@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: >-
+  The Depletion Limit of Level Repulsion: Why Solar Flares
+  Fail the GOE Test while Earth Systems Pass
+message: If you use this software or data, please cite it using this metadata.
+type: software
+authors:
+  - given-names: Ruqing
+    family-names: Chen
+    email: ruqing@hotmail.com
+    affiliation: 'GUT Geoservice Inc., Montreal, Canada'
+repository-code: 'https://github.com/Ruqing1963/solar-flare-rmt-depletion'
+abstract: >-
+  Random matrix theory analysis of real GOES solar flare data. The two largest
+  active regions of Solar Cycle 24 (AR 12673, AR 12192) show Poissonian, not
+  GOE, flare waiting-time statistics; AR 12673 rejects GOE at 95% confidence.
+  The whole-disk solar-maximum sample clusters (CV=2.32). This negative result
+  identifies reservoir depletion ratio as the control variable behind level
+  repulsion: solar flares deplete <10% of an active region per event and so do
+  not repel, turning the spacing ratio into a quantitative depletion probe.
+  Seventh in a unified RMT program spanning ten Earth and stellar systems.
+keywords:
+  - random matrix theory
+  - solar flares
+  - magnetic reconnection
+  - active regions
+  - level repulsion
+  - reservoir depletion
+  - waiting-time distribution
+  - GOES
+license: MIT
+version: 1.0.0
+date-released: '2026-06-21'
